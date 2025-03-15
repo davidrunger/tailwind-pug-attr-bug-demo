@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-pug-bug-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.0.9",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "pug": "^3.0.3",
+    "tailwindcss": "4.0.9",
+    "vite": "^6.2.2",
+    "vue": "^3.5.13"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

@@ -1,3 +1,3 @@
 <template lang="pug">
-.bg-neutral-900.text-red-500 This is a test.
+.text-sky-600.bg-neutral-900(title="A tooltip") This div has an HTML attribute.
 </template>
